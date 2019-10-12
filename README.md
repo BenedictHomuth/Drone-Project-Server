@@ -21,11 +21,11 @@ In order to run the server and to modify the code you will need the following:
 
 ## Install and test Node.js
 
-Go to there website and download and install the current version.
+Go to there website, download and install the current version.
 
 To check if Node.js was installed successfully, enter "node --version" into PowerShell.
 
-If everything went fine you can the version number.
+If everything went fine you can see the version number.
 
 ## The "package.json" file
 
