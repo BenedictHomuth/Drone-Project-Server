@@ -10,23 +10,16 @@ async function getData() {
         var table = document.createElement('table');
         table.border = '1';
 
-        //Start th
+        //Table Head
         var tableRow = document.createElement('tr');
-
-        var tableHeadOne = document.createElement('th');
-        var tableHeadTwo = document.createElement('th');
-        var tableHeadThree = document.createElement('th');
-
-        tableHeadOne.appendChild(document.createTextNode("Latitude"));
-        tableHeadTwo.appendChild(document.createTextNode("Longitude"));
-        tableHeadThree.appendChild(document.createTextNode("Time"));
-
-        tableRow.appendChild(tableHeadOne);
-        tableRow.appendChild(tableHeadTwo);
-        tableRow.appendChild(tableHeadThree);
-
+        var theadArr = ['Latitude','Longitude', 'Time'];
+        for(var i = 0; i < theadArr.length; i++){
+            var tHead = document.createElement('th');    
+            tHead.appendChild(document.createTextNode(theadArr[i]));
+            tableRow.appendChild(tHead);
+        }
         table.appendChild(tableRow);
-        //End th
+        //Table Head end
 
         var tableBody = document.createElement('tbody');
         table.appendChild(tableBody);
