@@ -39,7 +39,7 @@ Enter the data.
 
 After that the newly created file can be seen in your code editor if you opened the folder of your project.
 
-## Install Express
+## Install Express <img alt="npm" src="https://img.shields.io/npm/v/express">
 In order to install "Express", a lightweight server implementation navigate to your project folder in PowerShell. 
 Then enter "npm install express"
 
@@ -52,7 +52,7 @@ There is also a new folder "node_modules". It contains all the other dependencie
 
 In order to start express enter "node filename.filetype"
 
-## Install NeDB
+## Install NeDB <img alt="npm" src="https://img.shields.io/npm/v/nedb">
 Enter "npm install nedb" in PowerShell while being in your project folder.
 If the install was successfull the dependencie will be added in your package.json file.
 
