@@ -52,3 +52,9 @@ tbody {
     overflow-y: auto;    /* Trigger vertical scroll    */
     overflow-x: hidden;  /* Hide the horizontal scroll */
 }
+
+#leafletMap { 
+	margin: auto;
+	height: 400px; 
+	width: 	700px;
+}
